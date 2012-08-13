@@ -1,0 +1,48 @@
+
+def imc():
+ 	 	
+    altura=float(input("Ingrese su altura:"))
+
+    peso=int(input("Ingrese su peso:"))
+ 	
+    x= peso/(altura*altura)
+ 		
+    if x<=16.00:
+ 		
+        print("DELGADEZ SEVERA")
+ 		
+    elif x>16.00 and x<=16.99:
+ 	 	
+        print("DELGADEZ MODERADA")
+ 		
+    elif x>=17.00 and x<18.49:
+ 	 	
+        print("DELGADEZ NO MUY PRONUNCIADA")
+ 	 	
+    elif x>=18.50 and x<24.99:
+ 	 	
+        print("NORMAL")
+ 	 	
+    elif x==25.00:
+ 	 	
+        print("SOBREPESO")
+
+    elif x>25.00 and x<29.99:
+ 	 	
+        print("PREOBESO")
+ 
+    elif x==30.00:
+ 	 	
+        print("OBESO")
+
+    elif x>30.00 and x<34.99:
+ 	 	
+        print("OBESO TIPO I")
+
+    elif x>=35.00 and x<39.99:
+ 	 	
+        print("OBESO TIPO II")
+ 
+    elif x>=40.00: 
+ 	 	
+        print("OBESO TIPO III")
